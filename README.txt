@@ -1,1 +1,1 @@
-Put your portrait here as assets/profile.jpg. The portfolio is already wired to use it in the hero and About sections.
+
