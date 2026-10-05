@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fares Osama — Full Stack .NET Developer Portfolio" />
+  <title>Fares Osama | Full Stack .NET Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">FO<span>.</span></a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">FULL STACK .NET DEVELOPER</p>
+        <h1>Hi, I'm <span>Fares Osama</span>.</h1>
+        <p class="hero-text">I turn ideas into simple, reliable web applications while continuously growing as a software developer.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#about">About Me <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Let's Talk</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>C#</strong><span>Backend</span></div>
+          <div><strong>.NET</strong><span>Development</span></div>
+          <div><strong>SQL</strong><span>Databases</span></div>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="profile-orb"></div>
+        <div class="profile-card">
+          <div class="profile-photo-wrap">
+            <img src="assets/profile.jpg" alt="Fares Osama" class="profile-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <div class="profile-fallback">FO</div>
+          </div>
+          <div class="profile-info">
+            <span>FULL STACK .NET</span>
+            <strong>Fares Osama</strong>
+            <small>Developer • Learner • Problem Solver</small>
+          </div>
+        </div>
+        <div class="code-window">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <pre><code><span class="purple">public class</span> <span class="blue">Developer</span>
+{
+  <span class="purple">public string</span> Name =&gt;
+    <span class="green">"Fares Osama"</span>;
+
+  <span class="purple">public string</span> Focus =&gt;
+    <span class="green">"Full Stack .NET"</span>;
+
+  <span class="purple">public string</span> Goal =&gt;
+    <span class="green">"Build. Learn. Grow."</span>;
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">01 — ABOUT</p><h2>A developer's journey starts with curiosity.</h2></div>
+      <div class="about-grid">
+        <div class="about-story reveal">
+          <p>My journey into technology started with curiosity. I wanted to understand how websites and applications work and how code can turn an idea into something real.</p>
+          <p>As I studied IT at El Minya University, I started learning programming and discovered that I really enjoy solving problems and building things with code. I became especially interested in C#, .NET, backend development, and databases.</p>
+          <p>I'm still at the beginning of my journey, but I'm always learning, practicing, and improving my skills. My goal is to become a professional Full Stack .NET Developer and turn what I learn into real-world solutions.</p>
+        </div>
+        <div class="about-highlight reveal">
+          <div class="about-photo-wrap">
+            <img src="assets/profile.jpg" alt="Fares Osama" class="about-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <div class="about-photo-fallback">FO</div>
+          </div>
+          <span class="quote-mark">“</span>
+          <h3>Curious by nature.<br>Focused on growth.</h3>
+          <p>Problem solving • Fast learning • Adaptability</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 — EXPERTISE</p><h2>Tools I use to build my foundation.</h2></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="icon">&lt;/&gt;</div><h3>Backend</h3><p>C#, .NET, ASP.NET Core</p><div class="tags"><span>C#</span><span>.NET</span><span>ASP.NET Core</span></div></article>
+          <article class="skill-card reveal"><div class="icon">▦</div><h3>Database</h3><p>Working with structured data and database concepts.</p><div class="tags"><span>SQL Server</span><span>Database Design</span></div></article>
+          <article class="skill-card reveal"><div class="icon">◈</div><h3>Frontend</h3><p>Creating clean interfaces with web fundamentals.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+          <article class="skill-card reveal"><div class="icon">⌘</div><h3>Programming</h3><p>Strong fundamentals in programming and logical thinking.</p><div class="tags"><span>C++</span><span>OOP</span><span>Data Structures</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">03 — JOURNEY</p><h2>Where I am now — and where I'm going.</h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><div class="dot"></div><div><span class="date">CURRENT</span><h3>Building My Professional Foundation</h3><p>Developing my technical knowledge through university studies, programming practice, and continuous self-learning.</p></div></div>
+        <div class="timeline-item reveal"><div class="dot"></div><div><span class="date">NEXT</span><h3>Deepening .NET Development</h3><p>Focused on advanced .NET Core architecture, Entity Framework Core, REST APIs, and clean architecture.</p></div></div>
+        <div class="timeline-item reveal"><div class="dot"></div><div><span class="date">GOAL</span><h3>Professional Full Stack .NET Developer</h3><p>Build real-world applications and contribute to scalable, maintainable, high-quality software solutions.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container split-grid">
+        <div class="reveal"><p class="eyebrow">04 — USP</p><h2>Turning learning into useful solutions.</h2></div>
+        <div class="usp reveal"><p>I help small businesses and startups build reliable and user-friendly web applications using .NET and modern web technologies.</p><div class="line"></div><span>Simple. Reliable. Always improving.</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section container reveal">
+      <p class="eyebrow">05 — CONTACT</p>
+      <h2>Have an idea?<br><span>Let's build it.</span></h2>
+      <p>I'm open to learning opportunities, internships, and collaborations that help turn ideas into real software.</p>
+      <a class="btn primary" href="mailto:your-email@example.com">Send Me an Email <span>↗</span></a>
+      <small>Replace the email above with your real email address.</small>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><span>© 2026 Fares Osama</span><span>Full Stack .NET Developer</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
